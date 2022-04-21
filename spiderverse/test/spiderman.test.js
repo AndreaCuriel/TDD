@@ -1,3 +1,5 @@
+const Spiderman = require("./../app/spiderman");
+
 describe("Unit tests for Spiderman", () => {
   test("Create spiderman objet", () => {
     //Intanciar el objeto
