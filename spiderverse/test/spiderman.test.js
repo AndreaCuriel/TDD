@@ -22,8 +22,6 @@ describe("Unit tests for Spiderman", () => {
       5,
       "Marvel"
     );
-    expect(tomholland.getInfo()).toBe(
-      "Hey, I'm Tom Holland from Marvel studios"
-    );
+    expect(tomholland.getInfo).toBe("Hey, I'm Tom Holland from Marvel studio");
   });
 });
